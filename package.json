@@ -1,0 +1,18 @@
+{
+  "name": "Store",
+  "version": "1.0.0",
+  "description": "Easy store.",
+  "main": "index.js",
+  "repository": "https://github.com/NoManReady/Store",
+  "author": "NoManReady",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html -d dist"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel": "^1.11.0"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>DIY STORE</title>
+</head>
+
+<body>
+  <main>
+    <section class="app">
+      <section class="app__input">
+        <h2 class="app__heading">What you've done</h2>
+        <div class="js-items" aria-label="A list of items you have done"></div>
+        <div class="js-list"></div>
+        <form class="js-form">
+          <div>
+            <label>Add a new item</label>
+            <input class="js-input" type="text" autocomplete="off" />
+            <button>Save</button>
+          </div>
+        </form>
+      </section>
+      <aside class="app__status">
+        <div aria-hidden="true">
+          <small>You've done</small>
+          <span class="js-count">0</span>
+          <small>things today 😢</small>
+        </div>
+      </aside>
+    </section>
+  </main>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
